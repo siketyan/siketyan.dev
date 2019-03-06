@@ -1,0 +1,91 @@
+@import "~bulma/bulma";
+@import "~bulma-extensions";
+@import "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css";
+
+body {
+  font-family: "Yu Gothic UI", sans-serif;
+}
+
+header, footer,
+#skills .column,
+#contact .column {
+  text-align: center;
+}
+
+main section {
+  border-bottom: 1px solid #dfdfdf;
+
+  .title, .subtitle {
+    text-align: center;
+  }
+}
+
+.icon-text {
+  margin-right: .7rem;
+}
+
+#avatar-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto .5rem;
+
+  object {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+  }
+}
+
+.visible {
+  opacity: 1 !important;
+
+  &.animated {
+    transition: opacity 1.5s ease;
+  }
+}
+
+.summary-list > .media + .media {
+  border-top: none;
+  margin-top: .5rem;
+  padding-top: .5rem;
+}
+
+#skills .tag {
+  margin: .2rem .1rem;
+}
+
+.timeline .tag {
+  margin-left: .5rem;
+  font-weight: bold;
+}
+
+.history-link {
+  margin-left: 1.9rem;
+}
+
+#contact a {
+  transition: color .2s ease;
+  color: #999;
+
+  &.twitter:hover {
+    color: #39F;
+  }
+
+  &.facebook:hover {
+    color: #4267b2;
+  }
+
+  &.mail:hover {
+    color: #dfc43f;
+  }
+
+  &.github:hover {
+    color: black;
+  }
+
+  &.youtube:hover {
+    color: red;
+  }
+}

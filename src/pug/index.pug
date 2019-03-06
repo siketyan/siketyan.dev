@@ -1,0 +1,216 @@
+doctype html
+html(lang="ja")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="apple-mobile-web-app-title", content="Siketyan")
+        meta(name="application-name", content="Siketyan")
+        meta(name="msapplication-TileColor", content="#ffffff")
+        meta(name="msapplication-config", content="assets/icons/browserconfig.xml")
+        meta(name="theme-color", content="#ffffff")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title Siketyan
+        link(rel="apple-touch-icon", sizes="180x180", href="assets/icons/apple-touch-icon.png")
+        link(rel="icon", type="image/png" sizes="32x32", href="assets/icons/favicon-32x32.png")
+        link(rel="icon", type="image/png" sizes="16x16", href="assets/icons/favicon-16x16.png")
+        link(rel="manifest", href="assets/icons/site.webmanifest")
+        link(rel="mask-icon", href="/assets/icons/safari-pinned-tab.svg", color="#c57d4e")
+        link(rel="shortcut icon" href="assets/icons/favicon.ico")
+        link(rel="stylesheet", href="css/app.css")
+    body
+        header.hero.is-light
+            .hero-body
+                .container
+                    #avatar-wrapper
+                        object#avatar-background(type="image/svg+xml", data="assets/background.svg")
+                        object#avatar-outline(type="image/svg+xml", data="assets/outline.svg")
+                    h1.title Siketyan
+                    h2.subtitle Naoki Ikeguchi
+        main
+            .container
+                section.section#summary
+                    h1.title #[i.fas.fa-book.fa-fw] Summary
+                    h2.subtitle About me
+                    .summary-list
+                        article.media
+                            figure.media-left
+                                i.fas.fa-birthday-cake.fa-fw
+                            .media-content
+                                strong 生年月日
+                                p 2003年1月30日
+                        article.media
+                            figure.media-left
+                                i.fas.fa-school.fa-fw
+                            .media-content
+                                strong 所属
+                                p 国立豊田工業高等専門学校
+                        article.media
+                            figure.media-left
+                                i.fas.fa-graduation-cap.fa-fw
+                            .media-content
+                                strong 学科
+                                p 情報工学科
+                section.section#skills
+                    h1.title #[i.fas.fa-cog.fa-fw] Skills
+                    h2.subtitle What can I do
+                    .columns
+                        .column
+                            i.is-size-2.devicon-csharp-plain
+                            br
+                            h4.is-size-4 C#
+                            span.tag.is-primary.is-rounded Visual Studio
+                            span.tag.is-info.is-rounded NuGet
+                            span.tag.is-warning.is-rounded WPF
+                        .column
+                            i.is-size-2.devicon-java-plain
+                            br
+                            h4.is-size-4 Java
+                            span.tag.is-primary.is-rounded IntelliJ IDEA
+                            span.tag.is-info.is-rounded Maven
+                            span.tag.is-warning.is-rounded Jetty
+                        .column
+                            i.is-size-2.devicon-php-plain
+                            br
+                            h4.is-size-4 PHP
+                            span.tag.is-primary.is-rounded PhpStorm
+                            span.tag.is-info.is-rounded Composer
+                            span.tag.is-warning.is-rounded Laravel
+                        .column
+                            i.is-size-2.devicon-linux-plain
+                            br
+                            h4.is-size-4 Linux
+                            span.tag.is-info.is-rounded CentOS
+                            span.tag.is-info.is-rounded Arch Linux
+                    .columns
+                        .column
+                            i.is-size-2.devicon-html5-plain
+                            br
+                            h4.is-size-4 HTML
+                            span.tag.is-primary.is-rounded WebStorm
+                            span.tag.is-info.is-rounded Pug
+                        .column
+                            i.is-size-2.devicon-css3-plain
+                            br
+                            h4.is-size-4 CSS
+                            span.tag.is-primary.is-rounded WebStorm
+                            span.tag.is-info.is-rounded SCSS
+                            span.tag.is-warning.is-rounded Bootstrap
+                            span.tag.is-warning.is-rounded Bulma
+                            span.tag.is-warning.is-rounded Semantic UI
+                        .column
+                            i.is-size-2.devicon-javascript-plain
+                            br
+                            h4.is-size-4 JavaScript
+                            span.tag.is-primary.is-rounded WebStorm
+                            span.tag.is-info.is-rounded Yarn
+                            span.tag.is-info.is-rounded Gulp.js
+                            span.tag.is-warning.is-rounded Vue.js
+                            span.tag.is-warning.is-rounded webpack
+                            span.tag.is-warning.is-rounded jQuery
+                        .column
+                            i.is-size-2.devicon-mysql-plain
+                            br
+                            h4.is-size-4 SQL
+                            span.tag.is-primary.is-rounded HeidiSQL
+                            span.tag.is-info.is-rounded MySQL
+                            span.tag.is-info.is-rounded MariaDB
+                section.section#history
+                    h1.title #[i.fas.fa-history.fa-fw] History
+                    h2.subtitle My Life until Now
+                    .timeline
+                        .timeline-header
+                            span.tag.is-medium.is-primary Start
+                        .timeline-item.is-danger
+                            .timeline-marker.is-danger
+                            .timeline-content
+                                p.heading January 30, 2003
+                                p #[i.fas.fa-birthday-cake]&ensp;
+                                    | 誕生
+                        .timeline-header
+                            span.tag.is-primary 2016
+                        .timeline-item.is-black
+                            .timeline-marker.is-black
+                            .timeline-content
+                                p.heading October 1
+                                p #[i.fas.fa-rocket]&ensp;
+                                    | Webサービス JMBans をローンチ
+                        .timeline-header
+                            span.tag.is-primary 2017
+                        .timeline-item
+                            .timeline-marker
+                            .timeline-content
+                                p.heading May 7
+                                p #[i.fas.fa-users]&ensp;
+                                    | Sweak Network に参加
+                                    br
+                                    a.history-link(href="https://sweak.net/", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] 公式サイト
+                        .timeline-header
+                            span.tag.is-primary 2018
+                        .timeline-item
+                            .timeline-marker
+                            .timeline-content
+                                p.heading April 3
+                                p #[i.fas.fa-school]&ensp;
+                                    | 国立豊田工業高等専門学校 に入学
+                                    br
+                                    a.history-link(href="https://www.toyota-ct.ac.jp/", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] 公式サイト
+                        .timeline-item
+                            .timeline-marker
+                            .timeline-content
+                                p.heading September 23
+                                p #[i.fas.fa-chalkboard-teacher]&ensp;
+                                    | 第18回 学生エンジニアLT大会 in 名古屋 で登壇
+                                    br
+                                    a.history-link(href="https://student-lt.connpass.com/event/100148/", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] イベント詳細
+                                    a.history-link(href="https://speakerdeck.com/siketyan/xue-sheng-lt-in-ming-gu-wu-2018-07fedbc1-81e0-41fa-80d0-a2e24e30b6cb", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] 発表資料
+                        .timeline-item.is-warning
+                            .timeline-marker.is-warning
+                            .timeline-content
+                                p.heading October 27-28
+                                p #[i.fas.fa-trophy]&ensp;
+                                    | 第29回 全国高専プログラミングコンテスト 課題部門 で特別賞を受賞
+                                    br
+                                    a.history-link(href="https://www.local-connect.ga/", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] 作品詳細
+                        .timeline-item
+                            .timeline-marker
+                            .timeline-content
+                                p.heading December 22
+                                p #[i.fas.fa-chalkboard-teacher]&ensp;
+                                    | 第124回 高専カンファレンス in 名古屋 2018 で登壇，運営
+                                    br
+                                    a.history-link(href="https://connpass.com/event/105741/", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] イベント詳細
+                                    a.history-link(href="https://speakerdeck.com/siketyan/gao-zhuan-kanhuarensu-in-ming-gu-wu-2018", target="_blank")
+                                        | #[i.fas.fa-external-link-alt] 発表資料
+                        .timeline-header
+                            span.tag.is-medium.is-primary Now
+                section.section#contact
+                    h1.title #[i.fas.fa-phone.fa-fw] Contact
+                    h2.subtitle or Know More about Me
+                    .columns
+                        .column
+                            a.twitter(href="https://twitter.com/siketyan", target="_blank")
+                                i.is-size-3.fab.fa-twitter
+                        .column
+                            a.facebook(href="https://facebook.com/ikgnok13", target="_blank")
+                                i.is-size-3.fab.fa-facebook
+                        .column
+                            a.mail(href="mailto:siketyan@sikeserver.com", target="_blank")
+                                i.is-size-3.fas.fa-envelope
+                        .column
+                            a.github(href="https://github.com/Siketyan", target="_blank")
+                                i.is-size-3.fab.fa-github
+                        .column
+                            a.youtube(href="https://www.youtube.com/channel/UCkYZu3Uka3XM6FotAlkOpvg", target="_blank")
+                                i.is-size-3.fab.fa-youtube
+        footer.section
+            small
+                | Icon by @hsm_hx. #[br]
+                | Copyright &copy; 2019 Siketyan.
+
+        script(src="js/bundle.js")
