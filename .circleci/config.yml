@@ -60,11 +60,11 @@ jobs:
       
       - run:
           name: Install Firebase CLI
-          command: yarn global add firebase-tools
+          command: yarn add firebase-tools
 
       - run:
           name: Deploy to Firebase Hosting
-          command: firebase deploy --token=$FIREBASE_TOKEN
+          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
 
 workflows:
   version: 2.1
