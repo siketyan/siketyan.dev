@@ -1,0 +1,59 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:lts-stretch
+
+    working_directory: ~/repo
+
+jobs:
+  build:
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # Fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: Build
+          command: yarn install
+
+      - run:
+          name: Copy to workspace
+          command: cp -r ./* /tmp/workspace/
+
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - '*'
+
+  deploy:
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+
+      - run:
+          name: Copy from workspace
+          command: cp -r /tmp/workspace/* .
+
+      - run:
+          name: Deploy to Firebase Hosting
+          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
+
+workflows:
+  version: 2.1
+
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - flow
+          filters:
+            branches:
+              only: master
