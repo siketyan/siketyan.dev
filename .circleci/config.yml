@@ -9,6 +9,8 @@ executors:
 
 jobs:
   build:
+    executor: node-executor
+
     steps:
       - checkout
 
@@ -33,6 +35,8 @@ jobs:
             - '*'
 
   deploy:
+    executor: node-executor
+
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -53,7 +57,7 @@ workflows:
       - build
       - deploy:
           requires:
-            - flow
+            - build
           filters:
             branches:
               only: master
