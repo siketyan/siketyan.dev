@@ -4,12 +4,17 @@
   "main": "index.js",
   "author": "Siketyan",
   "private": true,
+  "scripts": {
+    "build": "gulp build"
+  },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.1",
     "bulma": "^0.7.4",
     "bulma-extensions": "^4.1.0",
     "devicon": "^2.0.0",
+    "firebase": "^6.1.1",
     "gulp": "^4.0.0",
+    "gulp-cli": "^2.2.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "jquery": "^3.3.1",
