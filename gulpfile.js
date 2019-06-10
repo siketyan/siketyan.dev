@@ -9,5 +9,6 @@ gulp.task("build", gulp.series(
     "pug",
     "webpack",
     "sass",
-    "font-awesome"
+    "font-awesome",
+    "assets"
 ));
