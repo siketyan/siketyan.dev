@@ -1,4 +1,5 @@
 /.idea/
+/.firebase/
 /dist/
 /node_modules/
 *.lock
