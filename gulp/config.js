@@ -28,5 +28,9 @@ module.exports = {
     fontAwesome: {
         src: "./node_modules/@fortawesome/fontawesome-free/webfonts/**",
         dest: dest + "/webfonts"
+    },
+    assets: {
+        src: src + "/assets/**",
+        dest: dest + "/assets"
     }
 };
