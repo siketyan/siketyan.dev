@@ -22,12 +22,25 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: Build
+          name: Resolve Dependencies
           command: yarn install
+
+      - run:
+          name: Build
+          command: yarn build
+
+      - run:
+          name: Create a workspace
+          command: mkdir -p /tmp/workspace
 
       - run:
           name: Copy to workspace
           command: cp -r ./* /tmp/workspace/
+
+      - save_cache:
+          key: v1-dependencies-{{ checksum "package.json" }}
+          paths:
+            - node_modules
 
       - persist_to_workspace:
           root: /tmp/workspace
