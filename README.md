@@ -1,4 +1,6 @@
 # siketyan.dev
+[![CircleCI](https://circleci.com/gh/Siketyan/siketyan.dev.svg?style=svg)](https://circleci.com/gh/Siketyan/siketyan.dev)
+
 My portfolio website.
 
 ## Requirements
