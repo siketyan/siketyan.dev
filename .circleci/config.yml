@@ -64,7 +64,7 @@ jobs:
 
       - run:
           name: Deploy to Firebase Hosting
-          command: ./node_modules/.bin/firebase deploy --project siketyan-dev --token=$FIREBASE_TOKEN
+          command: yarn deploy --project siketyan-dev --token $FIREBASE_TOKEN
 
 workflows:
   version: 2.1

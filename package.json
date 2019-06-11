@@ -5,7 +5,8 @@
   "author": "Siketyan",
   "private": true,
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.1",
@@ -13,6 +14,7 @@
     "bulma-extensions": "^4.1.0",
     "devicon": "^2.0.0",
     "firebase": "^6.1.1",
+    "firebase-tools": "^6.11.0",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.2.0",
     "gulp-pug": "^4.0.1",
