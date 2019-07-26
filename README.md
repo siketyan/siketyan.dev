@@ -2,6 +2,7 @@
 [![CircleCI](https://circleci.com/gh/Siketyan/siketyan.dev.svg?style=svg)](https://circleci.com/gh/Siketyan/siketyan.dev)
 [![Build Status](https://dev.azure.com/siketyan-org/siketyan.dev/_apis/build/status/Siketyan.siketyan.dev?branchName=master)](https://dev.azure.com/siketyan-org/siketyan.dev/_build/latest?definitionId=1&branchName=master)
 [![TeamCity](https://ci.sikeserver.com/app/rest/builds/buildType:SiketyanDev_Build/statusIcon)](https://ci.sikeserver.com/viewType.html?buildTypeId=SiketyanDev_Build)
+[![Travis CI](https://travis-ci.com/Siketyan/siketyan.dev.svg?branch=master)](https://travis-ci.com/Siketyan/siketyan.dev)
 
 My portfolio website.
 
