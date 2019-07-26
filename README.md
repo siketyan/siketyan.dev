@@ -23,6 +23,8 @@
   My portfolio website.
 </p>
 
+<br>
+
 ## Requirements
 - Node.js 11.x
 - Gulp.js CLI
