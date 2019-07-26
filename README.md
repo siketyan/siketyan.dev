@@ -2,8 +2,6 @@
   <img src="src/assets/master.svg" alt="Icon" width="128" height="128">
 </p>
 
-<h1 align="center">siketyan.dev</h1>
-
 <p align="center">
   <a href="https://circleci.com/gh/Siketyan/siketyan.dev">
     <img src="https://circleci.com/gh/Siketyan/siketyan.dev.svg?style=svg" alt="CircleCI">
@@ -18,6 +16,8 @@
     <img src="https://travis-ci.com/Siketyan/siketyan.dev.svg?branch=master" alt="Travis CI">
   </a>
 </p>
+
+<h1 align="center">siketyan.dev</h1>
 
 <p align="center">
   My portfolio website.
