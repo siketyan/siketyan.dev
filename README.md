@@ -11,9 +11,6 @@
   <a href="https://dev.azure.com/siketyan-org/siketyan.dev/_build/latest?definitionId=1&branchName=master">
     <img src="https://dev.azure.com/siketyan-org/siketyan.dev/_apis/build/status/Siketyan.siketyan.dev?branchName=master" alt="Azure Pipelines">
   </a>
-  <a href="https://ci.sikeserver.com/viewType.html?buildTypeId=SiketyanDev_Build">
-    <img src="https://ci.sikeserver.com/app/rest/builds/buildType:SiketyanDev_Build/statusIcon" alt="TeamCity">
-  </a>
   <a href="https://travis-ci.com/Siketyan/siketyan.dev">
     <img src="https://travis-ci.com/Siketyan/siketyan.dev.svg?branch=master" alt="Travis CI">
   </a>
