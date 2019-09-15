@@ -1,5 +1,5 @@
 const src = "./src";
-const dest = "./dist";
+const dest = "./public";
 
 module.exports = {
     src: src,
