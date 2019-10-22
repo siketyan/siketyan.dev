@@ -3,13 +3,23 @@ import Vivus from "vivus";
 
 require("@fortawesome/fontawesome-free/js/all");
 
-new Vivus("avatar-outline", {
+const $background = $("#avatar-background");
+const $outline = $("#avatar-outline");
+const $replay = $("#avatar-replay");
+
+const icon = new Vivus("avatar-outline", {
     type: "oneByOne",
     onReady: () => {
-        $("#avatar-outline").addClass("visible")
+        $outline.addClass("visible")
     }
 }, () => {
-    $("#avatar-background")
+    $background
         .addClass("animated")
         .addClass("visible");
+});
+
+$replay.click(() => {
+    $background.removeClass("visible");
+    icon.reset();
+    icon.play();
 });
