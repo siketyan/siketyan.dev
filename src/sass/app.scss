@@ -36,6 +36,17 @@ main section {
     top: 0;
     left: -20px;
   }
+
+  #avatar-replay {
+    position: relative;
+    height: 100%;
+
+    button {
+      position: absolute;
+      bottom: 6px;
+      left: 0;
+    }
+  }
 }
 
 .visible {
