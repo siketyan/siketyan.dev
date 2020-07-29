@@ -22,6 +22,11 @@
 
 <br>
 
+## Deployments
+- Firebase (https://siketyan.dev/)
+- Vercel (https://now.siketyan.dev/)
+- Netlify (https://netlify.siketyan.dev/)
+
 ## Requirements
 - Node.js 11.x
 - Gulp.js CLI
