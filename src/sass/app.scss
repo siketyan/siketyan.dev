@@ -104,3 +104,9 @@ main section {
     color: #4c8eff;
   }
 }
+
+.skill-icon {
+  @extend .is-size-2;
+
+  margin-bottom: 1rem;
+}
