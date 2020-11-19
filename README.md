@@ -6,13 +6,13 @@
 
 <p align="center">
   <a href="https://circleci.com/gh/Siketyan/siketyan.dev">
-    <img src="https://img.shields.io/circleci/build/gh/Siketyan/siketyan.dev?label=CircleCI&logo=CircleCI&style=for-the-badge" alt="CircleCI">
+    <img src="https://img.shields.io/circleci/build/gh/siketyan/siketyan.dev?label=CircleCI&logo=CircleCI&style=for-the-badge" alt="CircleCI">
   </a>
   <a href="https://dev.azure.com/siketyan-org/siketyan.dev/_build/latest?definitionId=1&branchName=master">
     <img src="https://img.shields.io/azure-devops/build/siketyan-org/7ee046f2-a9de-44e7-a1f6-a48cf95d086a/1?label=Azure%20Pipelines&logo=Azure%20DevOps&style=for-the-badge" alt="Azure Pipelines">
   </a>
   <a href="https://travis-ci.com/Siketyan/siketyan.dev">
-    <img src="https://img.shields.io/travis/com/Siketyan/siketyan.dev?label=Travis%20CI&logo=Travis%20CI&logoColor=FFF&style=for-the-badge" alt="Travis CI">
+    <img src="https://img.shields.io/travis/com/siketyan/siketyan.dev?label=Travis%20CI&logo=Travis%20CI&logoColor=FFF&style=for-the-badge" alt="Travis CI">
   </a>
 </p>
 
