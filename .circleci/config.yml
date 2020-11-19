@@ -3,7 +3,7 @@ version: 2.1
 executors:
   node-executor:
     docker:
-      - image: circleci/node:lts-stretch
+      - image: circleci/node:12-stretch
 
     working_directory: ~/repo
 
@@ -57,7 +57,7 @@ jobs:
       - run:
           name: Copy from workspace
           command: cp -r /tmp/workspace/* .
-      
+
       - run:
           name: Install Firebase CLI
           command: yarn add firebase-tools
