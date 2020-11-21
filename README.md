@@ -20,7 +20,7 @@
 - Vercel (https://siketyan.dev/)
 
 ## Requirements
-- Node.js 11.x
+- Node.js 15.x
 - Gulp.js CLI
 - Firebase CLI (Optional on Deploy)
 

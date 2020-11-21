@@ -2,4 +2,3 @@
 /.firebase/
 /public/
 /node_modules/
-*.lock
