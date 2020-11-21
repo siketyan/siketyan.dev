@@ -5,7 +5,8 @@
   "author": "Siketyan",
   "private": true,
   "scripts": {
-    "build": "gulp build"
+    "dev": "webpack",
+    "build": "webpack -c ./webpack.config.prod.js"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.1",
