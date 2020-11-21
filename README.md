@@ -23,9 +23,7 @@
 <br>
 
 ## Deployments
-- Firebase (https://siketyan.dev/)
-- Vercel (https://now.siketyan.dev/)
-- Netlify (https://netlify.siketyan.dev/)
+- Vercel (https://siketyan.dev/)
 
 ## Requirements
 - Node.js 11.x
@@ -37,11 +35,6 @@
 2. Run `yarn install` or `npm install` to resolve dependencies.
 3. Run `yarn build` or `npm run build` to build assets with Gulp.js.
 4. Copy the contents in `dist` directory to the document root.
-
-## Deployment via Firebase Hosting
-```sh
-$ firebase deploy --project [PROJECT_ID] --token [FIREBASE_TOKEN]
-```
 
 ## License
 This program is released under the **MIT License**.

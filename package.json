@@ -5,8 +5,7 @@
   "author": "Siketyan",
   "private": true,
   "scripts": {
-    "build": "gulp build",
-    "deploy": "firebase deploy"
+    "build": "gulp build"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.1",
