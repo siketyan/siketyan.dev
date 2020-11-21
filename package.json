@@ -11,17 +11,23 @@
     "@fortawesome/fontawesome-free": "^5.7.1",
     "bulma": "^0.7.4",
     "bulma-extensions": "^4.1.0",
+    "copy-webpack-plugin": "^6.3.2",
     "devicon": "^2.0.0",
+    "file-loader": "^6.2.0",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.2.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
+    "import-glob-loader": "^1.1.0",
     "jquery": "^3.3.1",
+    "pug-html-loader": "^1.1.5",
     "require-dir": "^1.2.0",
     "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
     "vivus": "^0.4.4",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
+    "webpack-copy-plugin": "^0.0.4",
     "webpack-stream": "^5.2.1"
   }
 }
