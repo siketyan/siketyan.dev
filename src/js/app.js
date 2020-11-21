@@ -1,3 +1,7 @@
+import '../pug/index.pug';
+import '../sass/app.scss';
+import '../assets/**/*.*';
+
 import $ from "jquery";
 import Vivus from "vivus";
 
