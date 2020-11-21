@@ -5,6 +5,9 @@
 <h1 align="center">siketyan.dev</h1>
 
 <p align="center">
+    <a href="https://github.com/siketyan/siketyan.dev/actions">
+        <img src="https://img.shields.io/github/workflow/status/siketyan/siketyan.dev/CI?logo=github&style=for-the-badge" alt="GitHub Actions">
+    </a>
 </p>
 
 <p align="center">
