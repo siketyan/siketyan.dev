@@ -6,7 +6,7 @@ const sourceDir = path.resolve(baseDir, 'src');
 const outputDir = path.resolve(baseDir, 'public');
 
 module.exports = {
-  mode: process.env.NODE_ENV ?? 'development',
+  mode: 'development',
   entry: path.resolve(sourceDir, 'js', 'app.js'),
   output: {
     path: outputDir,
